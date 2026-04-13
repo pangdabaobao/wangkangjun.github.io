@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <title>北京介绍图文混排</title>
+    <style>
+      .container {
+        display: flex;
+        align-items: flex-start;
+        gap: 40px;
+        max-width: 1200px;
+        margin: 20px auto;
+        padding: 20px;
+      }
+
+      .img-box {
+        flex: 3;
+      }
+      .img-box img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .text-box {
+        flex: 4;
+        font-family: "Microsoft YaHei", sans-serif;
+        color: #333;
+        line-height: 1.8;
+      }
+
+      h1 {
+        font-size: 28px;
+        margin-top: 0;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 10px;
+      }
+
+      h3 {
+        font-size: 18px;
+        margin-top: 20px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-box">
+        <img src="beijing.png" alt="北京图文" />
+      </div>
+
+      <div class="text-box">
+        <h1>北京简介</h1>
+        <p>
+          北京，简称“京”，是中华人民共和国的首都，是全国的政治中心、文化中心，是世界著名古都和现代化国际城市。北京位于北纬39度56分、东经116度20分，地处华北大平原的北部，东面与天津市毗连，其余均与河北省相邻。
+        </p>
+
+        <h3>北京景点</h3>
+        <ul>
+          <li>
+            <a href="https://baike.baidu.com/item/故宫/2631" target="_blank"
+              >故宫</a
+            >：中国乃至世界上保存最完整，规模最大的木质结构古建筑群，在这里感受中华文脉的传承。
+          </li>
+          <li>
+            <a
+              href="https://baike.baidu.com/item/八达岭长城/10862"
+              target="_blank"
+              >八达岭长城</a
+            >：史称天下九塞之一，是万里长城中最精华的部分，在明长城中最具代表性。
+          </li>
+          <li>
+            <a href="https://baike.baidu.com/item/天坛/10863" target="_blank"
+              >天坛</a
+            >：红墙黄瓦间，古柏掩映下，空气中弥漫着二月兰的幽香，陶醉在这紫色的花海中。
+          </li>
+          <li>
+            <a href="https://baike.baidu.com/item/圆明园/10864" target="_blank"
+              >圆明园</a
+            >：清代皇家宫苑，曾经的万园之园，如今残垣断壁，诉说着难忘的历史。
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
